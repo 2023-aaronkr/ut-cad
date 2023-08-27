@@ -1,6 +1,6 @@
 <div class="textbooks clearfix">
   {% for text in site.data.texts.Main-Text %}
-  <div class="instructor-profile-two-col">
+  <div class="textbook">
     <a href="{{ text.url }}" target="_blank"
       ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
     /></a>
@@ -14,7 +14,7 @@
     </ul>
   </div>
   {% endfor %} {% for text in site.data.texts.Supplementary %}
-  <div class="instructor-profile-two-col">
+  <div class="textbook">
     {% if text.image %}
     <a href="{{ text.url }}" target="_blank"
       ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
