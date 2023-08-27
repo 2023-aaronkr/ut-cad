@@ -3,20 +3,20 @@
 # -----------------------------------------------------------------------------
 author: Aaron Snowberger
 name: Course ID#
-title: Course Title
+title: 의료영상진단 CAD
 email: aaronkr.trainer@gmail.com
 description: >
-  ID# - Title - University - Semester
+  ID# - 의료영상진단 CAD - 교통대학교 - 2023년 2학기
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-url: # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
+url: https://2023-aaronkr.github.io # the base hostname & protocol for your site
+baseurl: /ut-cad/ # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username:
+github_username: 2023-aaronkr
 google_analytics:
 youtube_channel:
 rss: # notes rss
