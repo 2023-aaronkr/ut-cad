@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: 의료영상진단 <b>C</b>omputer <b>A</b>ided <b>D</b>iagnosis
-description: NUM • 2023년 2학기 • 교통대학교
+description: BIO030 • 2023년 2학기 • 교통대학교
 logo: ut-logo.jpg
 news: true
 ---
@@ -14,7 +14,7 @@ This graduate-level course will provide you with a strong foundation for both ap
 ---
 
 - **Time:** Tuesday 3:00pm - 5:50pm
-- **Location:** [Posner Hall 152](https://www.google.com/maps/place/Posner+Hall/@40.4424422,-79.9448675){:target="\_blank"}
+- **Location:** [W18-104](https://www.google.com/maps/place/Posner+Hall/@40.4424422,-79.9448675){:target="\_blank"}
 - **Discussion:** [Piazza](https://piazza.com/class/jqh4n6275r82yq){:target="\_blank"}
 - **HW submission:** [Gradescope](https://www.gradescope.com/courses/36025){:target="\_blank"}
 - **Online lectures:** The lectures will be live-streamed through [Panopto](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=0f44b4d7-fb4e-49eb-b88d-a9d00125e1b3){:target="\_blank"}, recorded, and made available on [YouTube](https://www.youtube.com/playlist?list=PLoZgVqqHOumTY2CAQHL45tQp6kmDnDcqn){:target="\_blank"}.
