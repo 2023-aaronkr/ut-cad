@@ -1,34 +1,36 @@
-- text: "주교재"
-  author:
-  title:
-  publisher:
-  link:
-  code:
-  notes:
+Main-Text:
+  - text: "주교재"
+    author:
+    title:
+    publisher:
+    link:
+    code:
+    notes:
 
-- text: "참고서적"
-  author: "제오프 도허티 저 / 김경섭, 이문호, 정성환, 정회경 공저"
-  title: >
-    <strong>디지털 의료영상처리 기초부터 분석, 응용까지</strong>
-  publisher: "홍릉과학출판사"
-  link: "https://www.yes24.com/Product/Goods/95858463"
-  code:
-  notes:
+Supplementary:
+  - text: "참고서적"
+    author: "제오프 도허티 저 / 김경섭, 이문호, 정성환, 정회경 공저"
+    title: >
+      <strong>디지털 의료영상처리 기초부터 분석, 응용까지</strong>
+    publisher: "홍릉과학출판사"
+    link: "https://www.yes24.com/Product/Goods/95858463"
+    code:
+    notes:
 
-- text: "참고서적"
-  author: "Klaus D. Toennies"
-  title: >
-    <strong>Guide to Medical Image Analysis: Methods and Algorithms</strong>
-  publisher: "Springer-Verlag London Ltd. 2017"
-  link: "https://link.springer.com/book/10.1007/978-1-4471-7320-5"
-  code:
-  notes:
+  - text: "참고서적"
+    author: "Klaus D. Toennies"
+    title: >
+      <strong>Guide to Medical Image Analysis: Methods and Algorithms</strong>
+    publisher: "Springer-Verlag London Ltd. 2017"
+    link: "https://link.springer.com/book/10.1007/978-1-4471-7320-5"
+    code:
+    notes:
 
-- text: "참고서적"
-  author: "Dr. Maureen van Eijnatten, Dr. Cian Scannell, Seb Harrevelt, MSc."
-  title: >
-    <strong>Medical Image Analysis Course</strong>
-  publisher: "Medical Image Analysis Group Eindhoven (IMAG/e), Eindhoven University of Technology, Netherlands"
-  link: "https://8dc00-mia-docs.readthedocs.io/en/latest/index.html"
-  code:
-  notes:
+  - text: "참고서적"
+    author: "Dr. Maureen van Eijnatten, Dr. Cian Scannell, Seb Harrevelt, MSc."
+    title: >
+      <strong>Medical Image Analysis Course</strong>
+    publisher: "Medical Image Analysis Group Eindhoven (IMAG/e), Eindhoven University of Technology, Netherlands"
+    link: "https://8dc00-mia-docs.readthedocs.io/en/latest/index.html"
+    code:
+    notes:

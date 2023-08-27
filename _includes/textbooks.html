@@ -1,66 +1,32 @@
 <div class="textbooks clearfix">
-  {% for text in site.data.texts %}
+  {% for text in site.data.texts.Main-Text %}
   <div class="instructor-profile-two-col">
-    <a href="{{ instructor.url }}" target="_blank"
-      ><img
-        src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}"
+    <a href="{{ text.url }}" target="_blank"
+      ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
     /></a>
-    <ul class="instructor-info">
+    <ul class="text-info">
       <li>
-        <span>Instructor</span>
-        <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a>
+        <span>Text:</span>
+        <a href="{{ text.url }}" target="_blank">{{ text.title }}</a>
       </li>
-      <li>
-        <span>Email:</span>
-        <a href="mailto:{{ instructor.email | encode_email }}" target="_blank"
-          >{{ instructor.email }}</a
-        >
-      </li>
-      <li><span>Office hours:</span> {{ instructor.office-hours }}</li>
+      <li><span>Author:</span> {{ text.author }}</li>
+      <li><span>Publisher:</span> {{ text.publisher }}</li>
     </ul>
   </div>
-  {% endfor %} {% for instructor in site.data.staff.Head-GSI %}
+  {% endfor %} {% for text in site.data.texts.Supplementary %}
   <div class="instructor-profile-two-col">
-    {% if instructor.image %}
-    <a href="{{ instructor.url }}" target="_blank"
-      ><img
-        src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}"
+    {% if text.image %}
+    <a href="{{ text.url }}" target="_blank"
+      ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
     /></a>
     {% endif %}
-    <ul class="instructor-info">
+    <ul class="text-info">
       <li>
-        <span>Head GSI</span>
-        <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a>
+        <span>Supplementary:</span>
+        <a href="{{ text.url }}" target="_blank">{{ text.title }}</a>
       </li>
-      <li>
-        <span>Email:</span>
-        <a href="mailto:{{ instructor.email | encode_email }}" target="_blank"
-          >{{ instructor.email }}</a
-        >
-      </li>
-      <li><span>Office hours:</span> {{ instructor.office-hours }}</li>
-    </ul>
-  </div>
-  {% endfor %} {% for instructor in site.data.staff.GSI %}
-  <div class="instructor-profile-two-col">
-    {% if instructor.image %}
-    <a href="{{ instructor.url }}" target="_blank"
-      ><img
-        src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}"
-    /></a>
-    {% endif %}
-    <ul class="instructor-info">
-      <li>
-        <span>GSI</span>
-        <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a>
-      </li>
-      <li>
-        <span>Email:</span>
-        <a href="mailto:{{ instructor.email | encode_email }}" target="_blank"
-          >{{ instructor.email }}</a
-        >
-      </li>
-      <li><span>Office hours:</span> {{ instructor.office-hours }}</li>
+      <li><span>Author:</span> {{ text.author }}</li>
+      <li><span>Publisher:</span> {{ text.publisher }}</li>
     </ul>
   </div>
   {% endfor %}
