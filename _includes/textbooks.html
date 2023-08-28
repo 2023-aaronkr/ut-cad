@@ -1,13 +1,13 @@
 <div class="textbooks clearfix">
   {% for text in site.data.texts.Main-Text %}
   <div class="textbook">
-    <a href="{{ text.url }}" target="_blank"
+    <a href="{{ text.link }}" target="_blank"
       ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
     /></a>
     <ul class="text-info">
       <li>
         <span>Text:</span>
-        <a href="{{ text.url }}" target="_blank">{{ text.title }}</a>
+        <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
       </li>
       <li><span>Author:</span> {{ text.author }}</li>
       <li><span>Publisher:</span> {{ text.publisher }}</li>
@@ -16,14 +16,14 @@
   {% endfor %} {% for text in site.data.texts.Supplementary %}
   <div class="textbook">
     {% if text.image %}
-    <a href="{{ text.url }}" target="_blank"
+    <a href="{{ text.link }}" target="_blank"
       ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
     /></a>
     {% endif %}
     <ul class="text-info">
       <li>
         <span>Supplementary:</span>
-        <a href="{{ text.url }}" target="_blank">{{ text.title }}</a>
+        <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
       </li>
       <li><span>Author:</span> {{ text.author }}</li>
       <li><span>Publisher:</span> {{ text.publisher }}</li>
