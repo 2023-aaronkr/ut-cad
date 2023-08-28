@@ -15,9 +15,9 @@ title: Schedule
 {% assign today_date = "now" | date: "%s" | divided_by: 86400 %}
 {% assign lecture_date = lecture.date | date: "%s" | divided_by: 86400 %}
 {% if today_date > lecture_date %}
-    {% assign event_type = "past" %}
+{% assign event_type = "past" %}
 {% elsif today_date <= lecture_date and today_date > prev_date %}
-    {% assign event_type = "warning" %}
+{% assign event_type = "warning" %}
 {% endif %}
 {% assign prev_date = lecture_date %}
 
@@ -28,7 +28,7 @@ title: Schedule
     <td colspan="4" align="center">{{ lecture.title }}</td>
     {% else %}
     <td>
-        Lecture #{{ forloop.index | minus: current_module | minus: skip_classes }}
+        Week #{{ forloop.index | minus: current_module | minus: skip_classes }}
         {% if lecture.lecturer %}({{ lecture.lecturer }}){% endif %}:
         <br />
         {{ lecture.title }}
@@ -44,8 +44,6 @@ title: Schedule
             {% endif %}
             {% if lecture.video %}
             | <a href="{{ lecture.video }}" target="_blank">video</a>
-            {% else %}
-            | video
             {% endif %}
             {% if lecture.notes %}
             | <a href="{{ lecture.notes }}" target="_blank">notes</a>
