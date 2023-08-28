@@ -1,79 +1,74 @@
 ---
 layout: page
 permalink: /logistics/
-title: Logistics
+title: Course Information / 과정 정보
 ---
 
-* (The list will be replaced with the table of contents.)
-{:toc}
+- (The list will be replaced with the table of contents.)
+  {:toc}
 
-***
+---
 
 ### Textbooks
 
-The required textbook for this class is (note that the material of the class goes beyond this book):
-- Daphne Koller and Nir Friedman, [Probabilistic Graphical Models: Principles and Techniques](http://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/ref=sr_1_1?ie=UTF8&s=books&qid=1250711756&sr=8-1){:target="\_blank"}.
+While there is no required textbook for this class, the following resources are where much of the course material will be derived from. If you are interested in learning more about the topics covered in this class, I recommend purchasing the following book:
 
-We will also be using excerpts from the following work, which you do not need to purchase:
-- Michael I. Jordan, **An Introduction to Probabilistic Graphical Models**, in preparation.<br/>
-Copies of certain chapters will be made available to students taking the class.
+- 제오프 도허티, [디지털 의료영상처리 기초부터 분석, 응용까지](https://www.yes24.com/Product/Goods/95858463){:target="\_blank"}.
 
-Optional:
-- Kevin Murphy, **Machine Learning: A Probabilistic Perspective**.
+The course may also use excerpts from the following work, which you do not need to purchase:
 
-***
+- Klaus D. Toennies, [Guide to Medical Image Analysis: Methods and Algorithms](https://link.springer.com/book/10.1007/978-1-4471-7320-5){:target="\_blank"}.
+
+Much of the Jupyter Notebook programming assignments will be based on the following course material:
+
+- Dr. Maureen van Eijnatten, Dr. Cian Scannell, Seb Harrevelt, MSc., [Medical Image Analysis Course (8DC00)](https://8dc00-mia-docs.readthedocs.io/en/latest/index.html){:target="\_blank"}.
+
+---
 
 ### Grading
 
-The class requirements include brief reading summaries, scribe notes for 1 lecture, 4 problem sets, and a project.
-This is a PhD level course, and by the end of this class you should have a good understanding of the basic methodologies in probabilistic graphical models, and be able to use them to solve real problems of modest complexity.
+The class requirements include brief reading summaries, (at least) 2 projects, and 2 tests.
 The grading breakdown is as follows:
 
-- Participation (4%)
-- Scribe Duties (10%)
-- Homework Assignments (40%)
-- Final Project (46%)
+- Attendance (& Participation) (10%)
+- Assignments & Practice Exercises (30%)
+- Projects (10%)
+- Midterm Test (20%)
+- Final Test (30%)
 
-*Note that this class does not have any tests or exams.*
+---
 
-***
-
-### Participation
+### Attendance (& Participation) (10%)
 
 We appreciate everyone being actively involved in the class!
-There are several ways of earning participation credit, which will be capped at 4%:
-- **Piazza participation:** The top ~20 contributors to Piazza will get 3.5%; others will get credit in proportion to the participation of the ~20th person. (To prevent abuse of the system, not all contributions are counted and instructors hold the right to determine to count contributions as positive or negative.)
-- **Completing mid-semester evaluation:** Around the middle of the semester, we will send out a survey to help us understand how the course is going, and how we can improve. Completing it is worth 0.5%.
-- **Karma point:** Any other act that improves the class, which a 10-708 TA or instructor notices and deems worthy: 1%.
+Students who will succeed are those who are actively involved:
 
-### Scribe Duties
+- **Active participation:** What does "active participation" look like? It means that you are engaged in the class, asking questions, answering questions, and participating in discussions.
+- **Disinterest:** Students who are not interested in the class do not study, do not participate, and do not do well on the tests. They will get a low grade.
 
-Each student is required to scribe for a small number of lectures (most likely just 1).
-Most lectures will have 3-4 students acting as scribes, and they should work as a team.
-During your assigned lectures, you are to take detailed notes in collaboration with your fellow scribes.
-After the lecture, the scribe team is to convert their notes into a written format (see [the guidelines](https://github.com/sailinglab/pgm-spring-2019/tree/master/_posts){:target="\_blank"}).
-The notes must be detailed and thorough, and must be submitted through a pull request on GitHub within 1 week after the lecture.
-TAs will audit and review the submitted notes, request changes if necessary, and will eventually approve the notes and add them to the course page.
+### Assignments & Practice Exercises (30%)
 
-As long as your scribe notes are of sufficient standard, you will be awarded full credit for scribe duties.
-If your notes have errors or are otherwise not up to standard, we will inform you and give you a chance to correct them.
-You will receive zero credit if you fail to submit your notes.
-
-***
-
-### Homework Assignments
-
-There will be 4 homework assignments over the course of the semester.
+There will be various practice exercises we will do together in class. There will also be some homework assignments for you to do on your own at home and submit online. We may also have some in-class quizzes to be submitted online.
 These assignments may contain material that has been covered by published papers and webpages.
-It is a graduate class and we expect students to solve the problems themselves rather than search for answers.
 
-**The students are required to typeset homework solutions using $$\LaTeX$$ and the provided template.**
+### Projects (10%)
+
+There will be (at least) two projects in this class. You will be required to submit a Jupyter notebook with your code and results, and a PDF report with your report and answers to the questions.
+
+### Tests (50%)
+
+There will be two tests in this class: a midterm and a final. Both tests may include both written and programming questions. The written questions will be similar to the homework questions, and the programming questions will be similar to the programming assignments. Written questions will be closed-book, and programming questions will be open-book (i.e., you can use any resources you want, including the Internet).
+
+- **Midterm:** 20%
+- **Final:** 30%
+
+---
 
 #### Collaboration Policy
 
 **Homework assignments must be done individually:** each student must hand in their own answers.
 However, it is acceptable to collaborate when figuring out answers and to help each other solve the problems.
-We will be assuming that, as participants in a graduate course, you will be taking the responsibility to make sure you personally understand the solution arising from such collaboration.
+We will be assuming that you will be taking the responsibility to make sure you personally understand the solution arising from such collaboration.
 You also must indicate on each homework with whom you have collaborated.
 
 #### Late Policy
@@ -87,38 +82,9 @@ Once those days are used, you will be penalized according to the following polic
 - Once the allowed late days are exceeded, the penalty is 50% per late day conted by hour (i.e., 2.0833% per hour).
 - The homework is worth zero credit 48 hours after exceeding the late day limit.
 
-You must turn in at least 3 of the 4 assignments, even if for zero credit, in order to pass the course.
-Please upload your late submissions to [Gradescope](https://www.gradescope.com/courses/36025){:target="\_blank"}.
+You must turn in 75% of the practices and assignments, even if for zero credit, in order to pass the course.
 
 #### Regrade Policy
 
-If you feel that we have made a mistake in grading your homework, please submit a regrading request on Gradescope and we will consider your request.
+If you feel that we have made a mistake in grading your homework, please submit a regrading request via email and I will consider your request.
 Please note that regrading of a homework may cause your grade to go either up or down.
-
-***
-
-### Final Project
-
-The class project will be carried out in groups of 3 or 4 people, and has four main parts: a proposal, a midway report, a final report, and a poster/oral presentation.
-The project is an integral part of this class, and is designed to be as similar as possible to researching and writing a conference-style paper.
-
-Please see the [project page](https://sailinglab.github.io/pgm-spring-2019/project/) for more information about the final project.
-
-***
-
-### Auditing
-
-To satisfy the auditing requirement, you must do *one* of the following:
-
-1. **Submit three homeworks** and receive at least 75% of the points on each one.
-2. **Do a class project** which must address a topic related to machine learning and must be something that you have started while taking this class (i.e. it can't be your previous work).
-You will need to submit a project proposal with everyone else, and present the project with everyone.
-However, you don't need to submit a milestone or final paper.
-You must get at least 80% on the final presentation part of the project.
-
-*If you plan to audit the class, please notify instructors that you are auditing and specify which requirement you plan to fulfill.*
-
-### Listeners outside CMU
-
-Please feel free to reuse any of these course materials that you find of use in your own courses.
-We ask that you retain any copyright notices, and include a written notice indicating the source of any materials you use.

@@ -20,7 +20,9 @@ news: true
 
 ---
 
-이 과정에서 먼저 이미지 분석의 기본 원칙을 다룬다. 나중에 다루는 주제에는 이미지 정합 및 CAD(Computer-Aided Diagnostic)가 포함된다. 국제한 시대에 맞게 영어 표현도 배운다.
+본 과목은 의료영상을 이용한 의사들의 진단 과정에 있어서 컴퓨터를 이용한 보조 진단(Computer Aided Diagnosis; CAD) 도구 및 영상분석기법에 대해 학습하는 과목이다. 구체적으로는 CAD를 위한 다양한 영상분석기법 기초 및 의료영상에서의 병변 검출에 초점을 둔 CADe와 병변의 진단 및 병변에 대한 특성 분석(예를 들어, 양성과 악성) 등의 분류에 초점을 둔 CADx에 대해 학습한다.
+
+먼저 이미지 분석의 기본 원칙을 다룬다. 나중에 다루는 주제에는 이미지 정합 및 CAD(Computer-Aided Diagnostic)가 포함된다. 국제한 시대에 맞게 영어 표현도 배운다.
 
 이 과정을 통과한 학생은 다음을 수행할 수 있습니다.
 
@@ -34,6 +36,8 @@ news: true
 이 과정은 네덜란드 아인트호벤 공과대학의 [의료 영상 분석 그룹 아인트호벤(IMAG/e)](https://www.tue.nl/en/research/research-groups/medical-image-analysis)에서 개발한 [자료](https://8dc00-mia-docs.readthedocs.io/en/latest/index.html)를 사용합니다.
 
 ---
+
+This is a course to learn Computer-Aided Diagnosis (CAD) tools and image analysis techniques in the diagnosis process of doctors using medical images. Specifically, students will learn about CADe, which focuses on the basics of various image analysis techniques for CAD and lesion detection in medical images, and CADx, which focuses on classification such as diagnosis of lesions and characterization of lesions (e.g., benign and malignant).
 
 First, the basic principles of image analysis are covered. Topics covered later include image registration and computer-aided diagnostics (CAD). We also learn English expressions suitable for the international era.
 
