@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Course Resources / 강의 자료
+title: Resources / 강의자료
 permalink: /resources/
 ---
 
