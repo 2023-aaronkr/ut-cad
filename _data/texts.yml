@@ -1,4 +1,4 @@
-Supplementary:
+Main-Text:
   - text: "참고서적"
     author: "제오프 도허티 저 / 김경섭, 이문호, 정성환, 정회경 공저"
     title: >
@@ -9,6 +9,7 @@ Supplementary:
     notes:
     image: texts/medical-imaging-text.jpg
 
+Supplementary:
   - text: "참고서적"
     author: "Klaus D. Toennies"
     title: >

@@ -9,6 +9,7 @@ news: true
 
 - **Time:** 화 Tuesday 3:00pm - 5:50pm
 - **Location:** [W18 미래융합정보관 - 104호](https://naver.me/GSHd39rS){:target="\_blank"}
+- **KakaoTalk:** [카카오톡 오픈채팅](https://open.kakao.com/o/gyKV6LDf){:target="\_blank"}
 
 <!--
 - **Discussion:** [Piazza](https://piazza.com/class/jqh4n6275r82yq){:target="\_blank"}
