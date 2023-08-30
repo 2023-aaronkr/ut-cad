@@ -4,7 +4,9 @@ title: Resources / 강의자료
 permalink: /resources/
 ---
 
-This page will house all relevant course resources. 이 페이지는 강의와 관련된 모든 자료를 담고 있습니다.
+{:toc}
+
+---
 
 ### Computer Software / 소프트웨어
 
