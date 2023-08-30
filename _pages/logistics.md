@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: logistics
 permalink: /logistics/
 title: Information / 과정정보
 ---
 
-- (The list will be replaced with the table of contents.)
-  {:toc}
+{:toc}
 
 ---
 
@@ -26,20 +25,6 @@ This course is a course to learn Computer Aided Diagnosis (CAD) tools and image 
 - **Biomedical Practical Ability (10%)** Able to apply biomedical-related knowledge to practice by efficiently utilizing what is learned in class.
 - **Creative Problem Solving Ability (10%)** Able to creatively apply various necessary skills to a given problem.
 - **Convergence Industry Adaptability (10%)** Based on major competencies, able to practically apply the skills required in the industrial field.
-
-### Textbooks / 교재
-
-While there is no required textbook for this class, the following resources are where much of the course material will be derived from. If you are interested in learning more about the topics covered in this class, I recommend purchasing the following book:
-
-- 제오프 도허티, [디지털 의료영상처리 기초부터 분석, 응용까지](https://www.yes24.com/Product/Goods/95858463){:target="\_blank"}.
-
-The course may also use excerpts from the following work, which you do not need to purchase:
-
-- Klaus D. Toennies, [Guide to Medical Image Analysis: Methods and Algorithms](https://link.springer.com/book/10.1007/978-1-4471-7320-5){:target="\_blank"}.
-
-Much of the Jupyter Notebook programming assignments will be based on the following course material:
-
-- Dr. Maureen van Eijnatten, Dr. Cian Scannell, Seb Harrevelt, MSc., [Medical Image Analysis Course (8DC00)](https://8dc00-mia-docs.readthedocs.io/en/latest/index.html){:target="\_blank"}.
 
 ---
 
