@@ -1,33 +1,54 @@
-<div class="textbooks clearfix">
-  {% for text in site.data.texts.Main-Text %}
-  <div class="textbook">
-    <a href="{{ text.link }}" target="_blank"
-      ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
-    /></a>
-    <ul class="text-info">
-      <li>
-        <span>Text:</span>
-        <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
-      </li>
-      <li><span>Author:</span> {{ text.author }}</li>
-      <li><span>Publisher:</span> {{ text.publisher }}</li>
-    </ul>
-  </div>
-  {% endfor %} {% for text in site.data.texts.Supplementary %}
-  <div class="textbook">
-    {% if text.image %}
-    <a href="{{ text.link }}" target="_blank"
-      ><img src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
-    /></a>
-    {% endif %}
-    <ul class="text-info">
-      <li>
-        <span>Supplementary:</span>
-        <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
-      </li>
-      <li><span>Author:</span> {{ text.author }}</li>
-      <li><span>Publisher:</span> {{ text.publisher }}</li>
-    </ul>
-  </div>
-  {% endfor %}
-</div>
+<h3 class="textbooks-title" style="font-size: 30px">Textbooks / 주교재</h3>
+<table class="table textbooks clearfix" style="border: none">
+  <colgroup>
+    <col style="width: 10%" />
+    <col style="width: 90%" />
+  </colgroup>
+  <tbody>
+    {% for text in site.data.texts.Main-Text %}
+    <tr class="textbook">
+      <th scope="row">
+        <a href="{{ text.link }}" target="_blank"
+          ><img
+            width="100"
+            style="box-shadow: 1px 1px 5px gainsboro"
+            src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
+        /></a>
+      </th>
+      <td>
+        <ol class="text-info" style="list-style: none; padding-left: 0">
+          <li>
+            <span>Text:</span>
+            <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
+          </li>
+          <li><span>Author:</span> {{ text.author }}</li>
+          <li><span>Publisher:</span> {{ text.publisher }}</li>
+        </ol>
+      </td>
+    </tr>
+    {% endfor %} {% for text in site.data.texts.Supplementary %}
+    <tr class="textbook">
+      <th scope="col">
+        {% if text.image %}
+        <a href="{{ text.link }}" target="_blank"
+          ><img
+            width="100"
+            style="box-shadow: 1px 1px 5px gainsboro"
+            src="{{ text.image | prepend: '/assets/img/' | relative_url }}"
+        /></a>
+        {% endif %}
+      </th>
+      <td>
+        <ol class="text-info" style="list-style: none; padding-left: 0">
+          <li>
+            <span>Supplementary:</span>
+            <a href="{{ text.link }}" target="_blank">{{ text.title }}</a>
+          </li>
+          <li><span>Author:</span> {{ text.author }}</li>
+          <li><span>Publisher:</span> {{ text.publisher }}</li>
+        </ol>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
