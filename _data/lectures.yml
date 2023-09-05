@@ -15,7 +15,7 @@
   week: 2
   title: >
     <strong>Introduction to Image Processing & Imaging Systems / 영상처리 소개와 영상시스템</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1XY7IVC7cpOKXpGK2cAekYjPMAr6uYOez_R4bh3NXEno/edit?usp=sharing"
   readings:
     - Medical Image Analysis (8DC00), <a href="https://8dc00-mia-docs.readthedocs.io/en/latest/reader/1.1_Geometrical_transformations.html" target="_blank">Topic 1.1 Geometrical transformations</a>
   logistics:
