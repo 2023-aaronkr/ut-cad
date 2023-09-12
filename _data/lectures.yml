@@ -27,7 +27,8 @@
   slides: "https://docs.google.com/presentation/d/1CQhc6GRUHuJYgzMsvEfAV0TLxDVw7OHDk21ChEu6VZE/edit?usp=sharing"
   readings:
     - Medical Image Analysis (8DC00), <a href="https://8dc00-mia-docs.readthedocs.io/en/latest/reader/1.2_Point-based_registration.html" target="_blank">Topic 1.2 Point-based registration</a>
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1BVYad0sv3X6CH2tXCJjXCZZ-6fI0QtIh?usp=sharing">Coding assets</a>
 
 - date: 9/19
   week: 4
