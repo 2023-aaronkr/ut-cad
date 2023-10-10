@@ -53,14 +53,16 @@
   week: 7
   title: >
     <strong>2D Classification Models (ML) / 2D 분류 모델 (머신러닝)</strong>
-  slides:
+  slides: "https://docs.google.com/presentation/d/1aYEbNByQLBXvCVOIpVu67ahu-t0RCuY3TCoq-9sCN0E/edit?usp=sharing"
   readings:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1kOYepg7OXOM47fd2dKOLzZxaTHtEyBHx?usp=sharing">Coding assets (week7)</a>
 
 - date: 10/17
   week: 8
   title: >
     <strong>Midterm Test</strong>
+  slides: "https://docs.google.com/presentation/d/1O3OjITXo4EAIY6ORoUlRKQbFmAGEcsFdjvyABbhxPvk/edit?usp=sharing"
 
 - date: 10/24
   week: 9
