@@ -86,33 +86,33 @@
 - date: 11/7
   week: 11
   title: >
-    <strong>In-Depth CNN Explanation, VGG16 Fine-tuning / 심층 CNN 설명, VGG16 미세 조정</strong>
+    <strong>In-Depth CNN Explanation / 심층 CNN 설명</strong>
   slides: "https://docs.google.com/presentation/d/13TdMQplzoouUF00Mx8QDtoFawGtNxmAm1WwMcpzuNMI/edit?usp=sharing"
+  readings:
+  logistics:
+
+- date: 11/14
+  week: 12
+  title: >
+    <strong>VGG16 Fine-tuning / VGG16 미세 조정</strong>
+  slides: "https://docs.google.com/presentation/d/1pSmIytg2cMLlhB_bkQUDZYhyBaDomBuuvqBwB3bMA98/edit?usp=sharing"
   readings:
   logistics:
 
 - title: "Module 2: 3D Imaging"
 
-- date: 11/14
-  week: 12
-  title: >
-    <strong>3D Medical Imaging Introduction & Fundamentals / 3D 의료영상 소개 및 기초</strong>
-  slides: "https://docs.google.com/presentation/d/1pSmIytg2cMLlhB_bkQUDZYhyBaDomBuuvqBwB3bMA98/edit?usp=sharing"
-  readings:
-  logistics:
-
 - date: 11/21
   week: 13
   title: >
-    <strong>3D Imaging Exploratory Analysis / 3D 이미징 탐색 분석</strong>
-  slides:
+    <strong>3D Medical Imaging Introduction & Fundamentals / 3D 의료영상 소개 및 기초</strong>
+  slides: "https://docs.google.com/presentation/d/1I7ytPHQe6q6QTpWs610jSd1f_3gTHZpFuoVyhgrxI-c/edit?usp=sharing"
   readings:
   logistics:
 
 - date: 11/28
   week: 14
   title: >
-    <strong>End-to-end Deep Learning Applications / 엔드 투 엔드 딥 러닝 애플리케이션</strong>
+    <strong>3D Imaging Exploratory Analysis / 3D 이미징 탐색 분석</strong>
   slides:
   readings:
   logistics:
@@ -120,6 +120,7 @@
 - date: 12/5
   week: 15
   title: >
+    <strong>End-to-end Deep Learning Applications / 엔드 투 엔드 딥 러닝 애플리케이션</strong>
     <strong>Hippocampal Volume Quantification in Alzheimer's Progression / 알츠하이머 진행의 해마 부피 정량화</strong>
   slides:
   readings:
