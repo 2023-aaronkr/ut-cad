@@ -107,7 +107,8 @@
     <strong>3D Medical Imaging Introduction & Fundamentals / 3D 의료영상 소개 및 기초</strong>
   slides: "https://docs.google.com/presentation/d/1I7ytPHQe6q6QTpWs610jSd1f_3gTHZpFuoVyhgrxI-c/edit?usp=sharing"
   readings:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1MSmg5UiWg4FhpJjTdnEot9Rmyu4fj-bw?usp=sharing">Coding assets (week12)</a>
 
 - date: 11/28
   week: 14
@@ -115,7 +116,8 @@
     <strong>3D Imaging Exploratory Analysis / 3D 이미징 탐색 분석</strong>
   slides: "https://docs.google.com/presentation/d/1x7-LrySaQKSmwczcl228YnbZ63RYTWGFh1CJwUuZAuI/edit?usp=sharing"
   readings:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1LGvraeJyjkAJGNK5OG2z2h3fGQH16NiS?usp=sharing">Coding assets (week13)</a>
 
 - date: 12/5
   week: 15
@@ -124,7 +126,8 @@
     <strong>Hippocampal Volume Quantification in Alzheimer's Progression / 알츠하이머 진행의 해마 부피 정량화</strong>
   slides: "https://docs.google.com/presentation/d/1ITKw2lGECSjUALFPFLN4bX73FOrXTeMZcJiKmYYPru0/edit?usp=sharing"
   readings:
-  logistics:
+  logistics: >
+    <a href="https://drive.google.com/drive/folders/1MtuNmNqQK3NGFLKaRefE3u2YuWMNOLCW?usp=sharing">Coding assets (week14)</a>
 
 - date: 12/12
   week: 16
